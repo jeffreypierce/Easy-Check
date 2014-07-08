@@ -9,7 +9,7 @@ var checkboxTree = function(){
     }
     return 0;	
   };
-  
+  //MAKING A HUGE CHANGE, with this comment
   var setCheckboxState = function($cb, newState) {
     var oldState = getCheckboxState($cb);
     if (newState !== oldState) {
